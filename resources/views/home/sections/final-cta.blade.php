@@ -1,0 +1,9 @@
+<x-cta-banner
+    id="join"
+    :title="$finalCta['title']"
+    :emphasis="$finalCta['title_emphasis']"
+    :text="$finalCta['text']"
+    :primary="$finalCta['primary_cta']"
+    :secondary="$finalCta['secondary_cta']"
+    :image="$finalCta['image']"
+/>
